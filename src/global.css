@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    background:var(--fundoContainer);
+}
+
+:root {
+    --corPrincipal: linear-gradient(180deg,#0e679c,#5cadda 50%,#ccdce5);;
+    --corName:#fff;
+    --fundoContainer:linear-gradient(180deg,#0e679c,#5cadda 50%, #4834d4);
+    --corSegundaria:#111;
+    --corDefundoLink:red;
+    --corDabordaCirculo:rgba(0, 0, 0, 0.1);
+}
